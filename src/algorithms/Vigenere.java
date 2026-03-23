@@ -3,13 +3,13 @@ package algorithms;
 import javax.swing.*;
 import java.awt.*;
 
-public class VigenereCipherGUI extends JFrame {
+public class Vigenere extends JFrame {
 
     private JTextField inputField = new JTextField();
     private JTextField keyField = new JTextField();
     private JTextArea outputArea = new JTextArea();
 
-    public VigenereCipherGUI() {
+    public Vigenere() {
 
         setTitle("Vigenère Cipher - Encryption & Decryption");
         setSize(600, 500);
@@ -118,6 +118,6 @@ public class VigenereCipherGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new VigenereCipherGUI().setVisible(true));
+        SwingUtilities.invokeLater(() -> new Vigenere().setVisible(true));
     }
 }

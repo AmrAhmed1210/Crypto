@@ -3,7 +3,7 @@ package algorithms;
 import javax.swing.*;
 import java.awt.*;
 
-public class RowTranspositionCipherGUI extends JFrame {
+public class RowTransposition extends JFrame {
 
     private JTextField inputField;
     private JTextField keyField;
@@ -11,7 +11,7 @@ public class RowTranspositionCipherGUI extends JFrame {
     private JButton encryptButton;
     private JButton decryptButton;
 
-    public RowTranspositionCipherGUI() {
+    public RowTransposition() {
 
         setTitle("Row Transposition Cipher");
         setSize(800, 650);
@@ -189,6 +189,6 @@ public class RowTranspositionCipherGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new RowTranspositionCipherGUI().setVisible(true));
+        SwingUtilities.invokeLater(() -> new RowTransposition().setVisible(true));
     }
 }

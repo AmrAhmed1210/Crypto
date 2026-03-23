@@ -3,14 +3,14 @@ package algorithms;
 import javax.swing.*;
 import java.awt.*;
 
-public class RailFenceCipherGUI extends JFrame {
+public class RailFence extends JFrame {
 
     private JTextField inputField;
     private JTextField railsField;
     private JTextArea outputArea;
     private JCheckBox showVisualization;
 
-    public RailFenceCipherGUI() {
+    public RailFence() {
 
         setTitle("Rail Fence Cipher - Encryption & Decryption");
         setSize(700, 600);
@@ -206,6 +206,6 @@ public class RailFenceCipherGUI extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new RailFenceCipherGUI().setVisible(true));
+        SwingUtilities.invokeLater(() -> new RailFence().setVisible(true));
     }
 }
