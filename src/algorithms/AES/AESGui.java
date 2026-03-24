@@ -1,4 +1,4 @@
-package algorithms.AEC;
+package algorithms.AES;
 
 import javax.swing.*;
 import java.awt.*;
